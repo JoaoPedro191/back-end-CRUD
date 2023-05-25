@@ -20,6 +20,6 @@ server.register(cors, {
 server.listen(
   { port: process.env.PORT ? Number(process.env.PORT) : 3333 },
   () => {
-    console.log("está rodando na porta 5000");
+    console.log("está rodando na porta 3333");
   }
 );
